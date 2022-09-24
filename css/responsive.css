@@ -1,0 +1,52 @@
+/*
+Template Name: 
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+@media (max-width: 991.98px) {
+    .main > section {
+        width: 40rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .main > section {
+        width: 32rem;
+    }
+    .sticky-right-menu {
+        display: none;
+    }
+    .gallery-col {
+        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    h1 {
+        letter-spacing: 0.2rem;
+    }
+    .main > section {
+        width: 18.1rem;
+        padding: 2.5rem 1.5rem 1.5rem;
+    }
+    .tv-header nav ul li a {
+        padding: 0;
+    }
+    #page {
+        padding: 2rem 1rem;
+    }
+    #header .content .inner {
+        padding: 2rem 0rem;
+    }
+    #header .content p {
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+        line-height: 1.5;
+    }
+    .tv-header nav ul li a {
+        letter-spacing: 0.12rem;
+    }
+}
